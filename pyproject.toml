@@ -1,0 +1,18 @@
+[project]
+name = "cs-lite-snippets"
+version = "0.0.1"
+description = "Reusable algorithms & infra snippets for interviews and production."
+authors = [{name = "Alexander"}]
+requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 100
+exclude = ["tests"]
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+
+[tool.coverage.run]
+branch = true
+source = ["."]
