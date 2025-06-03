@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Prepend branch name to the commit message.
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+sed -i "1s/^/[$BRANCH] /" "$1"
