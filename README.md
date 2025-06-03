@@ -8,3 +8,4 @@ A grab-bag of production-ready algorithms, SQL proofs, and networking diagrams.
 ```bash
 git clone https://github.com/<org>/cs-lite-snippets.git
 cd cs-lite-snippets && pip install -e .
+```
